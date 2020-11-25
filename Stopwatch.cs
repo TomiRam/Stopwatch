@@ -1,6 +1,7 @@
 using System;
 using System.Diagnostics;
 using System.Threading;
+using static System.Console;
 
 namespace Stopwatch 
 {
@@ -24,7 +25,7 @@ namespace Stopwatch
 	stopwatch.Stop();
 
 	// Write result
-	Console.WriteLine("Time elapsed: {0}",
+	WriteLine("Time elapsed: {0}",
 	    stopwatch.Elapsed);
     }
 }
